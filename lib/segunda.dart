@@ -68,10 +68,7 @@ class _SegundaState extends State<Segunda> {
               const SizedBox(
                 height: 50,
               ),
-              TextField(
-                onChanged: (String text) async {
-                  if()
-                },
+              TextField(                
                 controller: controlaSenha,
                 obscureText: true,
                 decoration: const InputDecoration(
